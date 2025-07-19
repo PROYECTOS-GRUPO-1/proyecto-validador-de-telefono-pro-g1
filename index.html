@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>📱 Validador de Teléfono Pro</title>
+<link rel="stylesheet" href="css/style.css" />
+<style>
+    .valido {
+    color: green;
+    font-weight: bold;
+    }
+    .invalido {
+    color: red;
+    font-weight: bold;
+    }
+    @keyframes fadeInResult {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+    }
+    #resultado {
+    animation: fadeInResult 0.5s ease forwards;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>📱 Validador de Teléfono Pro</h1>
+    <p>Introduce un número en formato internacional:</p>
+    <input type="text" id="telefono" placeholder="+51 987654321" />
+    <button id="validarBtn">Validar</button>
+    <p id="resultado"></p>
+</div>
+
+<!-- ✅ Importamos el archivo JS normal -->
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

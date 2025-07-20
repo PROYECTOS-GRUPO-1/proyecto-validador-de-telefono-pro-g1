@@ -19,9 +19,7 @@ Como agente de soporte en una plataforma internacional de reservas de hospedaje 
 quiero verificar que los números telefónicos que ingresan los anfitriones y huéspedes estén bien escritos y con el código internacional correcto,  
 para poder contactarlos fácilmente desde cualquier parte del mundo en caso de emergencias, cambios o confirmaciones de reserva.
 
-Criterios de Aceptación
-
-Dado que estoy en la interfaz del "Validador de Teléfono Pro".
+Criterios de Aceptación:
 
 Cuando ingreso un número de teléfono válido en formato internacional (por ejemplo, "+51 986356271") en el campo de entrada.
 
